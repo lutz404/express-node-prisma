@@ -1,0 +1,24 @@
+{
+  "name": "express-node-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "2.0.0-beta.5",
+    "cors": "2.8.4",
+    "express": "4.17.1",
+    "pg": "8.1.0"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.5",
+    "@types/node": "^14.0.1",
+    "nodemon": "1.18.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "keywords": []
+}
